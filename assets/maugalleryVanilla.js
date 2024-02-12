@@ -119,7 +119,6 @@ function mauGallery(element, options) {
   }
 
   function createLightBox(gallery, lightboxId, navigation) {
-    console.log(gallery)
     gallery.insertAdjacentHTML("beforeend", `<dialog class="modal fade" id="${lightboxId || "galleryLightbox"}" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
