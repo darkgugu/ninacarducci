@@ -90,9 +90,9 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
+/* #gallery {
+		min-height: 100vh;
+} */
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -354,3 +354,6 @@ input[type="submit"] {
 	}
 }
 
+dialog{
+	background-color: transparent !important;
+}
